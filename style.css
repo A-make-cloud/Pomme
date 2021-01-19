@@ -1,0 +1,126 @@
+.bcg-body{
+    background-color: c#d6f4a8;
+}
+.bcg-white{
+    background-color: white;
+}
+.header{
+    background-image: url(pomme.png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+    
+
+    
+}
+.header>p{
+    bottom: 90px;
+    position: absolute;
+    left: 702px;
+    font-size: 0.9em;
+}
+.bcg-nav{
+   
+    /* background-color:#74e32d; */
+    background-image: url(bouton.png);
+
+    border: 1px solid white;
+ 
+}
+.nav{
+   bottom: -16px; 
+   left: -41px;
+}
+.width-230{
+    width: 230px;
+}
+.color-white{
+    color:white;
+}
+a{
+    text-decoration: none;
+}
+/* .text-decoration-u{
+    text-decoration: underline;
+} */
+ul a{
+    padding: 3px 32px 2px 16px;
+}
+.width-900{
+    width: 900px;
+}
+.font-verdana{
+    font-family: Verdana,sans-serif;
+}
+.font-13{
+    font-size: 13px;
+}
+.container{
+    border: 2px solid #74e32d;
+    display: grid;
+    grid-template-columns: 80px 3fr 1fr;
+    grid-template-rows:  197px 2fr 1fr 50px;
+    grid-gap: 2rem;
+    grid-template-areas:
+    "header header header"
+"sidebar content-1 content-3"
+"sidebar content-2 content-3"
+"footer footer footer";
+}
+.header{grid-area:header;}
+.sidebar{grid-area:sidebar; top:20px; left: -90px;}
+.content-1{grid-area:content-1;}
+.content-2{grid-area:content-2;}
+.content-3{grid-area:content-3; }
+.footer{grid-area:footer;}
+.color-vert{
+   color: #74e32d; 
+}
+h2{
+    letter-spacing: 5px;
+  
+    /* left: -95px; */
+   justify-content: flex-start;
+    
+    font-size:4em;
+    font-weight: normal;
+    transform: rotate(-90deg);
+}
+
+h3{
+    background-image: url(pomme.png);
+    background-repeat: no-repeat;
+    background-position: 0px;
+   
+background-size: 5%; 
+
+border-bottom: 2px solid #74e32d;  
+}
+h4{
+    
+    border-bottom: 2px solid #74e32d;
+    border-left: 4px solid #74e32d;
+    padding-left: 2px;
+}
+.content-3>.actu{
+    /* display: ruby; */
+}
+.text-indent-35{
+    text-indent: 35px;
+}
+.margin-ri-10{
+    margin-right:10px;
+}
+.margin-bot-10{
+    margin-bottom: 10px;
+}
+ h1{  
+      margin-top: 20px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+.date{
+    font-weight: bold;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
